@@ -11,13 +11,13 @@ import lombok.Setter;
 public class Technician {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "TechnicianID" , nullable = false)
+    @Column(name = "Technicianid" , nullable = false)
     private Integer idTechnician;
 
-    @Column(name = "FirstNAme", length = 100,nullable = false)
-    private String firtName;
+    @Column(name = "Firstname", length = 100,nullable = false)
+    private String firstName;
 
-    @Column(name = "LastName", length = 100,nullable = false)
+    @Column(name = "Lastname", length = 100,nullable = false)
     private String lastName;
 
     @Column(name = "Dni", length = 8,nullable = false)
